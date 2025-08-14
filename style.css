@@ -27,8 +27,9 @@
   flex-wrap: wrap;
   /* 允许换行 */
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 80px;
   margin-bottom: 20px;
+  margin-left: 5px;
 }
 
 .alerts {
@@ -47,9 +48,9 @@
 
 .letter {
   /* padding: 20px; */
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-left: 23px;
+  margin-right: 23px;
   margin-bottom: 5px;
   flex: 0 0 calc(14.2857% - 10px);
   /* 100%/7 ≈ 14.2857%，减去间距,AI写的，当时没想到该怎么设计行列 */
@@ -210,7 +211,6 @@
 
 .icondiv {
   transition: all 0.3s ease;
-  border: 1px solid red;
   width: 30px;
   height: 30px;
 }

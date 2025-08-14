@@ -196,8 +196,6 @@ function gameBegin() {
     letterBox.textContent = String.fromCharCode(97 + i)      // 按钮上的字母为a-z，感觉还小写好看
     // 添加dataset.letter属性，值为div里的字母
     letterBox.dataset.letter = letterBox.textContent;
-    letterBox.style.margin = '2px'
-    letterBox.style.padding = '10px 15px'
     // 把div放进大div的后面--用appendChild
     parent.appendChild(letterBox)
 

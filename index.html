@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word For You</title>
+  <!-- 引入层叠样式表 -->
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="icondiv">
+    <div class="control icon"></div>
+
+    <div class="control icon"></div>
+    <!-- 新增下拉菜单 -->
+    <div class="dropdown-menu">
+      <div class="dropdown-item" id="switchWordBank">切换单词库</div>
+      <div class="dropdown-item">游戏设置</div>
+      <div class="dropdown-item">关于</div>
+    </div>
+
+  </div>
+
+  <div class="word-head  animated lightSpeedOutLeft">123</div>
+  <div class="definition">123</div>
+  <div class="choose"></div>
+
+
+  <div class="alerts">
+    <div class="tips">hello</div>
+    <div class="words">欢迎回来</div>
+    <button class="next">下一关</button>
+    <button class="over">结束游戏</button>
+  </div>
+  <!-- 在alerts div后面添加 -->
+  <div class="settings-window">
+    <div class="settings-item">换肤</div>
+    <div class="settings-item">结束游戏</div>
+    <button class="close-settings">关闭</button>
+  </div>
+
+  <!-- 关于弹窗 - 增加了必要的容器结构 -->
+  <div class="about-window">
+    <div class="hello">HELLO.<br>请到这里来</div>
+    <div class="about-animate-card">
+
+      <div class="about-animate-card-84">
+        <div class="about-animate-card__sublayer">
+          <div class="about-title">关于 Word For You</div>
+          <div class="about-text">
+            这是一个为了我自己和朋友们的考试制作的一个网站，这个网站最后会不会被我挂到挂到github上去呢，其实我也不知道（笑）。不过如果能有幸被你看到的话，我应该是已经挂上去啦。这个作品也算是我个人学习前端练手制作的第二个网页，以后倒回来再看估计会觉得自己做得很一般，不过就现在而言我已经很满意我自己的成果啦，当然，也诚挚地感谢AI和我的学姐，对我的工作都提供了非常宝贵的意见，也感谢<a
+              href="https://css.bqrdh.com" title="CSS样式网站">CSS样式网</a>给我提供了一些漂亮的样式。感恩<a
+              href="http://github.com/KyleBing/english-vocabulary" title="KyleBing">单词库</a>给我提供了PGEE和CET6的单词。<br>祝好，下次见。
+          </div>
+          <button class="close-about">关闭</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 引入JS -->
+  <script src="script.js"></script>
+</body>
+
+</html>
